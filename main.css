@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+}
+body {
+  margin: 0px;
+  color: white;
+  background-color: hsl(0, 0%, 8%);
+}
+
+h1 {
+  margin-bottom: 0.25rem;
+  font-size: 1.5rem;
+}
+
+.profile-picture {
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+.profile-picture img {
+  border-radius: 50%;
+  max-width: 5.5rem;
+}
+
+.user-name p {
+  color: hsl(75, 94%, 57%);
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.quote {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-bottom: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+a:link,
+a:visited,
+a:focus {
+  color: white;
+}
+
+.item:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    max-width: 327px;
+    margin: 3rem auto;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+  }
+  .item {
+    padding: 0.75rem 0.75rem;
+    width: 279px;
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    max-width: 384px;
+    margin: 3rem auto;
+    text-align: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 15px;
+  }
+  .item {
+    padding: 0.75rem 0.75rem;
+    width: 304px;
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+  }
+}
